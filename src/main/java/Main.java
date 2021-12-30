@@ -16,10 +16,10 @@ public class Main {
         vkApi.loadDataAboutUserInfo("198188261", table);
 
         DbManager.Connection();
-        DbManager.dropTables();
-        DbManager.CreateStructureDB();
-        DbManager.loadDataInDB(table);
-        DbManager.getCountStudentsOnCourseFromCities(0);
+//        DbManager.dropTables();
+//        DbManager.CreateStructureDB();
+//        DbManager.loadDataInDB(table);
+//        DbManager.getCountStudentsOnCourseFromCities(0);
 
         var cityChart = new CityChart();
         cityChart.paintGraphic();
